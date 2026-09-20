@@ -153,3 +153,23 @@ python -m pip install -r requirements.txt
 ```
 
 The executed Jupyter notebook contains the model outputs, comparison table, visualizations, and confusion matrices.
+
+## Automated Testing and CI
+
+The project includes automated unit tests for:
+
+- Data preprocessing
+- Train/test splitting
+- Model construction
+- Model fitting
+- Evaluation metrics
+
+Tests are written with **pytest** and run automatically through **GitHub Actions** on pushes and pull requests to the `main` branch.
+
+Current test status:
+
+- 6 automated tests
+- Preprocessing tests
+- Modeling tests
+- Evaluation tests
+- GitHub Actions CI workflow
